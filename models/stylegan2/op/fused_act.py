@@ -3,6 +3,8 @@ import os
 import torch
 from torch import nn
 from torch.autograd import Function
+from torch.nn import functional as F
+
 from torch.utils.cpp_extension import load
 
 module_path = os.path.dirname(__file__)
